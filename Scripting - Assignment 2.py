@@ -24,3 +24,12 @@ def keep_awake():
 if __name__ == "__main__":
     open_notepad()
     keep_awake()
+
+
+
+# In a buildspec.yml
+phases:
+  build:
+    commands:
+      - echo "Starting build..."
+      - someInvalidCommand  # <-- This command does not exist
