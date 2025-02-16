@@ -24,4 +24,3 @@ def keep_awake():
 if __name__ == "__main__":
     open_notepad()
     keep_awake()
-PRInt(ccvo)
