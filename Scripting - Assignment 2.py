@@ -26,10 +26,3 @@ if __name__ == "__main__":
     keep_awake()
 
 
-
-# In a buildspec.yml
-phases:
-  build:
-    commands:
-      - echo "Starting build..."
-      - someInvalidCommand  # <-- This command does not exist
